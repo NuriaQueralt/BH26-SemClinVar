@@ -1,0 +1,9 @@
+PREFIX : <http://2026.biohackathon.org/clinvar/schema/resources>
+PREFIX hasType: <http://hasType>
+PREFIX hasLabel: <http://www.w3.org/2000/01/rdf-schema#label>
+
+:variantShape IRI {
+  a [variantType] ;
+  hasType xsd:string ;
+  hasLabel xsd:string
+}
